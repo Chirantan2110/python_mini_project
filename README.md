@@ -28,5 +28,5 @@ This machine learning project predicts whether a student is at risk of poor acad
 ## ⚙️ Installation & Running the Code
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/Student-Performance-Prediction.git](https://github.com/YOUR-USERNAME/Student-Performance-Prediction.git)
+   git clone [https://github.com/Chirantan2110/Student-Performance-Prediction.git](https://github.com/Chirantan2110/Student-Performance-Prediction.git)
    cd Student-Performance-Prediction
