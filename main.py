@@ -86,7 +86,7 @@ results_df = pd.DataFrame(evaluation_results)
 print("\n--- Model Performance Comparison Table ---")
 print(results_df.to_string(index=False))
 
-# 7a. Graphical Representation: Bar chart of metrics
+# Graphical Representation: Bar chart of metrics
 results_df.set_index("Algorithm").plot(kind="bar", figsize=(10, 6), colormap="viridis")
 plt.title("Performance Metrics Comparison Across ML Algorithms")
 plt.ylabel("Score (0.0 to 1.0)")
@@ -96,7 +96,7 @@ plt.ylim(0, 1.1)
 plt.tight_layout()
 plt.show()
 
-# 7b. Graphical Representation: Confusion Matrices
+# Graphical Representation: Confusion Matrices
 fig, axes = plt.subplots(2, 2, figsize=(12, 10))
 fig.suptitle('Confusion Matrices for Predictive Models', fontsize=16)
 
